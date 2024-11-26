@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        div {
+            border: 3px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 20px;
+
+        }
+        .items {
+            border: 2px solid black;
+            margin: 13px;
+            width: 200px;
+            height: 200px;
+            align-content: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.arezqGrVeKUAmuKTaXGGEgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="90px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.aMoVSpiXHkBRvQqeHwYfxgHaEq&w=315&h=198&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="90px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.hUZyIUCLXVjNGOKBJQcwZwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="90px" alt=""></div>
+        <div class="items"><img
+                src="https://static.vecteezy.com/system/resources/previews/022/100/816/original/microsoft-logo-transparent-free-png.png"
+                height="150px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.WzdKBeSaMugMpnbLJL7KWwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="110px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.3meF7mC6eHnDmied3AsDTwHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="150px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.MXfk3m5cK35G3Q7hDiQ7bgHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="130px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP._mKN-XWUleASlO4pPHqXeQHaD3&w=346&h=180&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="90px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th/id/OIP.BFw2u7lMdjCiEfLPAGQH7gHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"
+                height="100px" alt=""></div>
+        <div class="items"><img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIALsBTQMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAABAUGAwIB/9oACAEBAAAAANKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABw6xZPsAAAAAHyLDgXFDpuwAAAAAeMxc8ZSg03YAAAAA+ZPTZy5iVuh6SQAAAABS0+rzlzFqtb7AAAAAHGupNVnbjhA1AAAAAApOdhwn5y4n+wAAAAAofNhS6KBbgAAAAAVcjx2kgAAAAAAAAAAAAAAAAKeF10Ge0NRNqaufoaHRUtlROmhx8v5ps9oSqrtNCzmvzujyfdpPqj52svOaOnmy83pGUsa7R0MvvaZW7pNVm9IZjrexavtH0uc0dX6sjhm9RndLRWknN6Rmb2nuaK99dsnb1mozekQ85K7z+MWu2Gb0lHPmqmF70FdW9b5T3CnuKydU8fd9TXNNc5/xNWfumn85uZ0+dSbkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/2gAKAgIQAxAAAAAAAAAAAAAAAAAAAAAB1bZcQAAAADUz7bwus8UAAAAArpnn7t+PElAAAAAbvoZleUAAAAAGlZQAAKslE0yVKCJaSpUrNrUIl1CyJaslxd5qXUxSUslszaBKlEqUEKzQAAAAAAAAAAAAAP/EADoQAAICAQMCAgYGCgIDAAAAAAECAwQABRESECExQRMUFTVQcjRCUVRhcSAiIzIzUnOSorJTcGCCk//aAAgBAQABPwD/AK7lswQ9pJQpxWDKGUgg9wRjX60crRu5Uj8MSRJF5I4YfaPgpIAJJ2A8TkN2vYcojHfNQpGXeaPu/mMo3TXPB+8Ry1VjtxgqRz23V8ilnpTntsR2ZT55BPHYjDofzHmPgkiLIjIw7MNjlmtLTlHc7b7o+UbosDg/aQZd070rc4dg3mMqotWBYpZUDfi2W6iWk+x/JsjknpTnyYdmX7cgnSxGHT4ESQCQN9gTtlPVZoZSZiXRz3wiGzD5PG4yzWlpyAgnbfdHyjeFgcH7SZqmmmYmxCN3+umadqLVSI5NzD/rk9aG4iMG+VxlWstaPgpJ77k/A9S0wTbzQDaXzX+fKN+Sm5UgmMnuubQ2oPJ43GWa0tOUEE7b7o+UrwsDg/aTNS0wTbzQDaTzX7coag9NuD7mLzGJIkiK6MGUjcEfA5J4YmVZJFUnNR00WQZYe03++UrstGQgglN/10z9hbg8njcZaqyU5R3PHfdHyjeFgcH7SZqWmCfeaEbS/wC+aLJMLLQ/U2JYfA9TqOzGdO42AYZQv8Nopj+p5NlnT6tpg7qeX2rhkq6WohRXPI88/Y24PJ0cZZqyU5QQTx33R8o3hYHB+0gwRxq7OEAZvEgdz8Ev0OO80I+ZcoX/AEW0Ux/U8j9mXqYsoHT+IBlW1JTlIIPHwdM/Y24fJ0cZX0wxWBIZN1Q7r8Gn0uGQlozwOU4Jq6FJJQ6/Uy3QjskNvwfKtZKqFFJO53JP/gG4HwnVrstfhDD2d8TRJ5BymsANkWl3a8qGK0OO/Ss7+27A5ecnTWyRTT8ZcoktTrEncmIZNo88ksji14tk9SSC1HXMu5fj3+bPYdj7yMjQpGiFixVQNz57ZE7+3ZBy83HTXSRWi/GTKpLVaxJ3JiXNZ5tdgiD+KLnsOx95XItGnSVHNrwPT0MtzUJ4hLseT57EsjwsriWbum2EissXjPRXf2+45HxYfoavZMFXgp2eTNIneGw9aTcc+mouyUbDKSDxzTrrVJRz39C+A75rTutmrsx6TxS29VniEux5tnsW0vdLK5FfuUZhDc3KYCCAR4Ebjrq9SaQx2IQSUyHXR4Twn80yveq2e0Ug5fynselb37P+cvTXPocf9bKH0Gr/AEh0v++K35xdZJ0q6xNM4JAds9u1P+KXNS1GG5EiIjghsp/Q6v8ARXNYIS/A32Ihz29V/wCKXK2rV7MyxBHDHpVmig1Sd5X4rvLh1Sh94yzIdWtxJCh4L0X3+/zv+hNtqOrBPGJP9UzWYjFNDbjyGVZ4Y5V8HUHNU932MrUxc0rb66yOUzSLhI9Ul7On7ma59JrfJ0g9+zfNL01eJXpO/nGQRmkuXoRfgSv6EtavN/FhRvzGanUjovDLAxXI2LxxsRsSoOKwg1yTn2DO3+fTXZUEEUXnz55TQpUro3iIx0v++K35xdQiSa5KrqCOb56nU+7Rf2DNaggigiMcSJu+U/odX+iuav7yrD8I89Uqfd4v7RiQQRndIkU/aFA6V68VrU7EcvhvIc9jUf5X/vzZ9KvqgcmJ+i+/3+d+t+f1apJJ5/up+ZylFqSKZqsfZ/Ptkya3ZjMcse6/+maJPuktdvFTyXNU932M0b6CPnfNWqsji7D2II55ftLbNWTzCbOOkHv2b5pOms20EXqyndyRzzT4DXpwxt4+J639PltSLNFNxcLnoteTsJT/AHjIdKsTSiW7Jv0v6clwAg8ZBgg1yIcEl3X58raS/pfTW35t1tUZptRgnXbgOG/VKMw1V7Pbh3PTVaktqBBFtuHyBDFBDGT3RAM1KhZs2I5YSvZM9W1z7z/nkVfWhIhaz2+fpUozw6hPO23A89ump0Z7U0Dx7dLenXGuSTwOByw09a+8H/65Qg1GKVzZn5Jt4FuWapTsW/QCIjiMjjWKNI18FUAdPUJo9TFiLYREknLsLT1Zok25MM06vJWqrHJty3JxgGBBAII2Ix9GnFnaMj0PLpPp1/1yWeB1HJiQeWGnrT9jZ/zynpCQOJZW5v8A9q//xAAlEQEAAwAABQQCAwAAAAAAAAABAAIREBIxQnEhMlFhUFIiQGD/2gAIAQIBAT8A/wAOVXc4ALiy1Wv9IUdIhc068K27bdJYxz8mGsyv7QN2BqEA11jUO6Bu/UDUIGuTK/tA3fWcu9HYG7wDXJYxhVRYGuQN2cvw7wHHYctvple7xKe4j1ZbpXxKd3iVacxhK+5m0+GU6W8SvL651le7xwoeixP4nqOQcpv3A1LEr0t4lPcZHqwcnO/UFHSczwVcg5sHHYKOzmfgmpsHIKRsvxNcCCk1zIWTpBSc7+M//8QAJhEAAgIBAwQBBQEAAAAAAAAAAQIAEQMQEkEgITFABBMwUFFhgf/aAAgBAwEBPwD8miDeFyWsbEMb097T4ImXCcdEG1PPpXREVl+Qu1uzjwZkbKF+m3Ew5wBsfuhjbdx2+PRrd2qAlTFZfkLtbs48GOjIxBFGA36ONzjYMJkxrlX6mP8A0RMSvjBQ04hyJkQjJ2dfTR2Q2pqDI4beDRhJYkk2ft2f10X/ADUmWf1CZfQDcJ0Jl69xDxD40HMPENw+J3h4huHjQweZzP5DxD41rSumpXRXRWlD8Z//2Q=="
+                height="90px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.-F8DEW8rY_YJKvueLkGj7gHaD4&w=345&h=181&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="90px" alt=""></div>
+        <div class="items"><img
+                src="https://th.bing.com/th?id=OIP.rx3j8u1JcuRqsOaN2as7qAHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+                height="120px" alt=""></div>
+    </div>
+</body>
+
+</html>
